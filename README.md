@@ -1,1 +1,1 @@
-# rag chatbot
+# Legal Research chatbot
