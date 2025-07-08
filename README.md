@@ -2,6 +2,10 @@
 
 This project builds a RAG-based chatbot that helps answer legal research questions using dense legal PDFs.
 
+## UI screenshot
+
+![UI screenshot](ui_ss.png)
+
 ## Features
 
 **Contextual Legal Question Answering**  
