@@ -1,11 +1,12 @@
-# 🧠 LLM-Powered Legal Research Chatbot
+<<<<<<< HEAD
+# LLM-Powered Legal Research Chatbot
 
 This project builds a RAG-based chatbot that helps answer legal research questions using dense legal PDFs.
 
-## 🔍 Features
+## Features
 
 **Contextual Legal Question Answering**  
-Users can ask complex legal questions, and the chatbot answers them using information pulled directly from uploaded PDFs. The answers are generated using Mistral-7B and include citations to the relevant source chunks.
+Users can ask complex legal questions, and the chatbot answers them using information pulled directly from uploaded PDFs. The answers are generated using Mistral-7B and include citations to the relevant source PDFs. Multiple PDFs may be added.
 
 **PDF Embedding with Nomic**  
 Legal documents are split into manageable chunks and embedded using Nomic Embed. These embeddings help the system understand and retrieve semantically similar text during a query.
@@ -18,3 +19,4 @@ Responses are generated using the open-weight Mistral-7B model running locally v
 
 **Interactive UI with Streamlit**  
 The chatbot is accessible through a simple Streamlit interface. Users can type in questions, view model responses, and see the source documents that were used.
+=======
