@@ -4,7 +4,7 @@ This project builds a RAG-based chatbot that helps answer legal research questio
 
 ## UI screenshot
 
-![UI screenshot](ui_ss.png)
+<img src="ui_ss.png" alt="UI screenshot" width="600"/>
 
 ## Features
 
