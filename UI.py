@@ -6,7 +6,6 @@ from langchain.vectorstores.chroma import Chroma
 from langchain.prompts import ChatPromptTemplate
 from langchain_community.llms.ollama import Ollama
 
-# Page configuration
 st.set_page_config(
     page_title="Legal Research Assistant",
     page_icon="⚖️",
@@ -51,13 +50,11 @@ def query_rag_ui(text):
             sources.append(src)
     return answer, sources
 
-# App header
 st.title("⚖️ Legal Research Assistant")
 st.markdown(
     "Use this tool to analyze your legal documents"
 )
 
-# Sidebar controls
 with st.sidebar:
     st.header("Database")
     if st.button('Populate'):
@@ -72,7 +69,7 @@ with st.sidebar:
 
 st.divider()
 
-# User query
+#User query
 query = st.text_input("Enter your question:")
 if st.button("Ask"):
     if not query:
