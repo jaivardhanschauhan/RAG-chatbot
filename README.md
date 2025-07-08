@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # LLM-Powered Legal Research Chatbot
 
 This project builds a RAG-based chatbot that helps answer legal research questions using dense legal PDFs.
@@ -19,4 +18,4 @@ Responses are generated using the open-weight Mistral-7B model running locally v
 
 **Interactive UI with Streamlit**  
 The chatbot is accessible through a simple Streamlit interface. Users can type in questions, view model responses, and see the source documents that were used.
-=======
+
